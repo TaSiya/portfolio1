@@ -20,7 +20,7 @@
   <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
   <!-- Custom CSS -->
-  <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+  <link href="css/stylish-portfolio.css" rel="stylesheet">
 
 </head>
 
@@ -56,7 +56,7 @@
   <!-- Header -->
   <header class="masthead d-flex">
     <div class="container text-center my-auto">
-      <h1 class="mb-1">Siyanda Makhalima</h1>
+      <h1 class="mb-1 heading">Siyanda Makhalima</h1>
       <h3 class="mb-5">
         <em>Full Stack Web Developer</em>
       </h3>
@@ -90,7 +90,7 @@
       <div class="row">
         <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
           <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-screen-smartphone"></i>
+              <i class="fab fa-html5"></i>
           </span>
           <h4>
             <strong>HTML & CSS</strong>
@@ -98,17 +98,35 @@
           <p class="text-faded mb-0">Responsive and dynamic web pages!</p>
         </div>
         <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+                <i class="fab fa-github-square"></i>
+            </span>
+            <h4>
+              <strong>git & github</strong>
+            </h4>
+            <p class="text-faded mb-0">commit, pull, push, branch, gh-pages</p>
+          </div>
+        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
           <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-pencil"></i>
+              <i class="fab fa-js"></i>
           </span>
           <h4>
             <strong>JavaScript</strong>
           </h4>
           <p class="text-faded mb-0">DOM and Templating </p>
         </div>
+        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+                <i class="fab fa-node-js"></i>
+            </span>
+            <h4>
+              <strong>NodeJS</strong>
+            </h4>
+            <p class="text-faded mb-0">NodeJS Framework and libraries</p>
+          </div>
         <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
           <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-like"></i>
+              <i class="fas fa-vial"></i>
           </span>
           <h4>
             <strong>TDD</strong>
@@ -117,7 +135,7 @@
         </div>
         <div class="col-lg-3 col-md-6">
           <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-mustache"></i>
+              <i class="fab fa-js"></i>
           </span>
           <h4>
             <strong>ExpressJS</strong>
@@ -126,7 +144,7 @@
         </div>
         <div class="col-lg-3 col-md-6">
           <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-mustache"></i>
+              <i class="fas fa-database"></i>
           </span>
           <h4>
             <strong>PostgreSQL</strong>
@@ -135,7 +153,7 @@
         </div>
         <div class="col-lg-3 col-md-6">
           <span class="service-icon rounded-circle mx-auto mb-3">
-            <i class="icon-mustache"></i>
+              <i class="fab fa-node-js"></i>
           </span>
           <h4>
             <strong>API</strong>
@@ -155,36 +173,35 @@
       </div>
       <div class="row no-gutters">
         <div class="col-lg-6">
-          <a class="portfolio-item" href="#">
+          <a class="portfolio-item" target="_blank" href="http://kasi-shoe-api.herokuapp.com/">
             <span class="caption">
               <span class="caption-content">
-                <h2>Stationary</h2>
+                <h2>Shoe Catalogue App</h2>
                 <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
               </span>
             </span>
-            <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
+            <img class="img-fluid" src="img/shoe.png" alt="">
           </a>
         </div>
         <div class="col-lg-6">
-          <a class="portfolio-item" href="#">
+          <a class="portfolio-item" target="_blank" href="http://sister-waiter.herokuapp.com">
             <span class="caption">
               <span class="caption-content">
-                <h2>Ice Cream</h2>
+                <h2>Waiter WebApp</h2>
                 <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
               </span>
             </span>
-            <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
+            <img class="img-fluid" src="img/waiter2.png" alt="">
           </a>
         </div>
         <div class="col-lg-6">
-          <a class="portfolio-item" href="#">
+          <a class="portfolio-item" target="_blank" href="http://greet-codex.herokuapp.com/">
             <span class="caption">
               <span class="caption-content">
                 <h2>Greeter App</h2>
-                <p class="mb-0"> Greeting app that greet people in selected languages.
+                <p class="mb-0"> Greeting app that greet people in different languages.
                     
                 </p>
-                
               </span>
               
             </span>
@@ -192,11 +209,11 @@
           </a>
         </div>
         <div class="col-lg-6">
-          <a class="portfolio-item" href="#">
+          <a class="portfolio-item" target="_blank" href="http://vehicle-finder.herokuapp.com/">
             <span class="caption">
               <span class="caption-content">
                 <h2>Vehicle finder</h2>
-                <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
+                <p class="mb-0">Allows People in the Western cape to report their stolen cars using number plates</p>
               </span>
             </span>
             <img class="img-fluid" src="img/vehicle-finder.png" alt="">
@@ -207,17 +224,44 @@
   </section>
 
   <!-- Call to Action -->
-  <section class="content-section bg-primary text-white">
+  <!-- <section class="content-section bg-primary text-white">
     <div class="container text-center">
       <h2 class="mb-4">The buttons below are impossible to resist...</h2>
       <a href="#" class="btn btn-xl btn-light mr-4">Click Me!</a>
       <a href="#" class="btn btn-xl btn-dark">Look at Me!</a>
-    </div>
+    </div> -->
   </section>
 
   <!-- Map -->
-  <section id="contact" class="map">
-   
+  <section id="contact" class="map bg-primary">
+      <div class="container contact-form">
+          <div class="contact-image">
+          </div>
+          <form method="post">
+              <h3>Drop Us a Message</h3>
+             <div class="row">
+                  <div class="col-md-6">
+                      <div class="form-group">
+                          <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+                      </div>
+                      <div class="form-group">
+                          <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
+                      </div>
+                      <div class="form-group">
+                          <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
+                      </div>
+                      <div class="form-group">
+                          <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="form-group">
+                          <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+                      </div>
+                  </div>
+              </div>
+          </form>
+</div>
   </section>
 
   <!-- Footer -->
@@ -225,22 +269,22 @@
     <div class="container">
       <ul class="list-inline mb-5">
         <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white mr-3" href="#">
+          <a class="social-link rounded-circle text-white mr-3" target="_blank" href="https://www.facebook.com/siyanda.makhalima">
             <i class="icon-social-facebook"></i>
           </a>
         </li>
         <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white mr-3" href="#">
+          <a class="social-link rounded-circle text-white mr-3" target="_blank" href="https://twitter.com/_TaSiya">
             <i class="icon-social-twitter"></i>
           </a>
         </li>
         <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white" href="#">
+          <a class="social-link rounded-circle text-white" target="_blank" href="https://github.com/TaSiya">
             <i class="icon-social-github"></i>
           </a>
         </li>
       </ul>
-      <p class="text-muted small mb-0">Copyright &copy; Your Website 2018</p>
+      <p class="text-muted small mb-0">Copyright &copy; Siyanda Makhalima 2018</p>
     </div>
   </footer>
 
